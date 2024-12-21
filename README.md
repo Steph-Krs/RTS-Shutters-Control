@@ -28,6 +28,7 @@ Update your system and install required tools:
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install -y unzip npm
+```
 
 ---
 
@@ -36,14 +37,16 @@ sudo apt-get install -y unzip npm
 Follow these steps to install and configure the software:  
 
 1. Download the latest version of the project:  
-   ```bash
+```bash
    wget -O RTS-Shutters-Control.zip https://github.com/Steph-Krs/RTS-Shutters-Control/archive/refs/heads/main.zip
-
+```
 
 2. Extract the downloaded archive (use the -o flag to overwrite existing files if necessary):  
-   ```bash
+```bash
    unzip -o RTS-Shutters-Control.zip
+```
    
 3. Install the Debian package:
-   ```bash
+```bash
    sudo dpkg -i RTS-Shutters-Control-main/install/RTS-Shutters-Control.deb
+```
